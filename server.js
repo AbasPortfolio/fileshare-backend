@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "https://file-z7t3.onrender.com"
+  origin: "https://file-y1bb.onrender.com"
 }));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
