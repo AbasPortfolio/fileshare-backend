@@ -9,13 +9,13 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "https://file-y1bb.onrender.com"
+  origin: "https://file-y1bb.onrender.com",
 }));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use('/', router);
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 9443;
 
 DBConnection();
 
